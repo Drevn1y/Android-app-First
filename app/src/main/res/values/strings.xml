@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="logo_text">Калькулятор</string>
+    <string name="hint1">Введите первое число</string>
+    <string name="hint2">Введите второе число</string>
+    <string name="bt_result">Результат</string>
+    <string name="bt_1">Кнопка 1</string>
+    <string name="bt_2">Кнопка 2</string>
+    <string name="bt_3">Кнопка 3</string>
+    <string name="s_bt">Не нажимай!</string>
+    <string name="back">Вернуться назад</string>
+    <string name="title_activity_main3">activity_main3</string>
+    <string name="fragment_1">Фрагмент 1</string>
+    <string name="fragment_2">Фрагмент 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

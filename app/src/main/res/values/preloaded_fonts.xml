@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/arizonia</item>
+        <item>@font/blaka_ink</item>
+        <item>@font/bungee_inline</item>
+    </array>
+</resources>

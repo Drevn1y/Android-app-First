@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkgrey"
+    android:backgroundTint="@color/darkgrey"
+    tools:context=".activity_main2">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="193dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="248dp"
+        android:onClick="backNewActivity"
+        android:text="@string/back"
+        app:cornerRadius="2sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeWidth="2sp" />
+
+    <ImageButton
+        android:id="@+id/start_btn"
+        android:layout_width="192dp"
+        android:layout_height="194dp"
+        android:layout_marginTop="320dp"
+        android:contentDescription="@string/bt_1"
+        android:onClick="random_player"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/powerbtn"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
